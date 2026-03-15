@@ -83,12 +83,13 @@ Converts ratings into business risk signals:
 
 All calculated fields were built directly in Tableau:
 
-Revenue         = quantity × price
-Customers       = COUNTD(customer_id)
-Avg Rating      = AVG(review_score)
-AOV             ≈ Total Revenue / Order Count
-Top N Parameter = Dynamic integer filter for cities and products
-
+| Field | Formula | Description |
+|---|---|---|
+| `Revenue` | `quantity × price` | Total sales value per transaction |
+| `Customers` | `COUNTD(customer_id)` | Count of unique customers |
+| `Avg Rating` | `AVG(review_score)` | Overall customer satisfaction indicator |
+| `AOV` | `Total Revenue / Order Count` | Estimated average basket value |
+| `Top N Parameter` | Dynamic integer filter | Adjustable filter for top cities and products |
 ---
 
 ## 🔍 Key Findings
@@ -147,4 +148,4 @@ Top N Parameter = Dynamic integer filter for cities and products
 4. Use the **navigation bar** to move between dashboards
 5. Use **Top N sliders** and **time controls** to explore interactively
 
-> 💡 **Note**: Dashboard is designed for **3840×2160 (4K)** resolution. On smaller screens, layout may shift — refer to the PDF report for intended visual output.
+> 💡 **Note**: Dashboard is designed for **3840×2160 (4K)** resolution. On smaller screens, layout may shift - refer to the PDF report for intended visual output.
