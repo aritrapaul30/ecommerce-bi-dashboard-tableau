@@ -52,4 +52,41 @@ The analysis moves beyond aggregate averages to surface hidden risks: high-reven
 
 The dashboards follow a structured decision-making flow:
 
+📋 Overview → 💰 Revenue → ⭐ Customer Satisfaction
+
+### 🔵 Dashboard 1: Overview
+Establishes the business health baseline:
+- **Headline KPIs**: Total Revenue (~$737K), Customers (1,000), AOV (~$737), Avg Rating (~4.0 ⭐)
+- **Monthly Growth Chart**: Identifies seasonal peaks (August & December dominate)
+- **Revenue Tree Map**: Category contribution — Electronics, Fashion, Sports & Outdoors, Books, Home & Living
+- **Top Cities**: Geographic revenue concentration across 981 cities
+- **Customer Segmentation**: Gender × Age band rings
+
+### 🟢 Dashboard 2: Revenue
+Drills into controllable revenue levers:
+- **Monthly/Quarterly Trend Toggle**: Tactical vs. strategic granularity
+- **Category Performance Panel**: Revenue amount + contribution share + micro-trend direction
+- **Payment Influence Donut**: Bank Transfer vs. Credit Card vs. Cash on Delivery revenue split
+- **Top N Products Bar Chart**: Dynamic parameter — switch between Top 10 / Top 20 instantly
+
+### 🔴 Dashboard 3: Customer Satisfaction & Risk
+Converts ratings into business risk signals:
+- **Satisfaction Heatmap** (Category × Age Band): Pinpoints which segments are most dissatisfied
+- **Risk–Revenue Scatter Plot**: Positions every product on a revenue vs. rating trade-off matrix
+- **Worst Products View**: Isolates items pulling ratings down for operational intervention
+- **Demographic Sentiment Bubbles**: Age group vs. category satisfaction
+- **Top Customers Table**: High-value customer retention lens
+
+---
+
+## 🛠️ Data Engineering & Calculated Fields
+
+All calculated fields were built directly in Tableau:
+
+```text
+Revenue         = quantity × price
+Customers       = COUNTD(customer_id)
+Avg Rating      = AVG(review_score)
+AOV             ≈ Total Revenue / Order Count
+Top N Parameter = Dynamic integer filter for cities and products
 
