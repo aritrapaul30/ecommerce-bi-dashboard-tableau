@@ -56,7 +56,7 @@ The dashboards follow a structured decision-making flow:
 
 ### 🔵 Dashboard 1: Overview
 Establishes the business health baseline:
-- **Headline KPIs**: Total Revenue (~$737K), Customers (1,000), AOV (~$737), Avg Rating (~4.0 ⭐)
+- **Headline KPIs**: Total Revenue (~737K$), Customers (1,000), AOV (~737$), Avg Rating (~4.0 ⭐)
 - **Monthly Growth Chart**: Identifies seasonal peaks (August & December dominate)
 - **Revenue Tree Map**: Category contribution — Electronics, Fashion, Sports & Outdoors, Books, Home & Living
 - **Top Cities**: Geographic revenue concentration across 981 cities
