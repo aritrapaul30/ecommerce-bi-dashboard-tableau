@@ -83,7 +83,6 @@ Converts ratings into business risk signals:
 
 All calculated fields were built directly in Tableau:
 
-```text
 Revenue         = quantity × price
 Customers       = COUNTD(customer_id)
 Avg Rating      = AVG(review_score)
