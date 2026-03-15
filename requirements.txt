@@ -1,0 +1,13 @@
+# ============================================================
+# E-Commerce BI Dashboard
+# Tool & Software Requirements
+# ============================================================
+
+# ── Visualisation & Dashboarding ──────────────────────────
+Tableau Desktop / Tableau Public >= 2023.1
+# Download: https://public.tableau.com/en-us/s/download
+
+# ── Data Source ───────────────────────────────────────────
+# Kaggle Dataset: Online Retail & E-Commerce Dataset
+# URL: https://www.kaggle.com/datasets/ertugrulesol/online-retail-data/data
+# Format: CSV | Rows: 10,000 | Columns: 13
