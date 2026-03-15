@@ -107,10 +107,10 @@ All calculated fields were built directly in Tableau:
 | Priority | Action |
 |---|---|
 | 🔴 High | Fix high-revenue + low-rating products immediately (protect revenue engine) |
-| 🟠 Medium | Streamline payment experience — prioritise one dominant, frictionless method |
+| 🟠 Medium | Streamline payment experience - prioritise one dominant, frictionless method |
 | 🟡 Medium | Segment-aware experience strategy for 55+ customers in Fashion & Books |
 | 🟢 Low | Expand strong mid-tier categories with upward revenue trends |
-| 🟢 Low | Use Risk–Revenue matrix before launching any scaling campaigns |
+| 🟢 Low | Use Risk-Revenue matrix before launching any scaling campaigns |
 
 ---
 
